@@ -1,0 +1,28 @@
+type: rpm-ostree
+install:
+  - gnome-console
+
+remove: 
+  - openssh-server
+  - firefox
+  - firefox-langpacks
+  - virtualbox-guest-additions
+  - yelp
+  - httpd
+  - httpd-core
+  - mod_lua
+  - mod_http2
+  - mod_dnssd
+  - libvncserver
+
+  - gnome-tweaks
+  - gnome-tour
+  - gnome-terminal
+  - gnome-terminal-nautilus
+  - gnome-user-share
+  - gnome-remote-desktop
+  - gnome-shell-extension-window-list
+  - gnome-shell-extension-places-menu
+  - gnome-shell-extension-launch-new-instance
+  - gnome-shell-extension-background-logo
+  - gnome-shell-extension-common
