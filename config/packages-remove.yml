@@ -21,6 +21,7 @@ remove:
   - xrandr
   - sqlite
   - gamemode 
+  - tmux
 
   - qadwaitadecorations-qt5
   - qt5-qtbase
