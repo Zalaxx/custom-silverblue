@@ -19,8 +19,6 @@ remove:
   - libvncserver
   # - perl
   - toolbox
-  - w3m
-  - w3m-img
 
   - qadwaitadecorations-qt5
   - qt5-qtbase
