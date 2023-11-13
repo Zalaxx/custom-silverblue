@@ -20,6 +20,9 @@ remove:
   # - perl
   - toolbox
   - qt5-qtbase
+  - qt5-qtbase-common
+  - qt-settings
+  - qt5-qtxmlpatterns
 
   - gnome-tweaks
   - gnome-tour
