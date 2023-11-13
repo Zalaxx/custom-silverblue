@@ -17,6 +17,10 @@ remove:
   - mod_http2
   - mod_dnssd
   - libvncserver
+  - xrandr
+  - perl-*
+  - toolbox
+  - qt5-qtbase
 
   - gnome-tweaks
   - gnome-tour
