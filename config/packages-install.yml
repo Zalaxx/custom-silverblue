@@ -2,8 +2,8 @@ type: rpm-ostree
 install:
   - gnome-console
   - ufw
-  - neofetch
+  - fastfetch
+  - xwininfo # used to easily check which application is running on wayland or not
   - fish
   - lsd
   - bat
-  
