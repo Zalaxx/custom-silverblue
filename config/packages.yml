@@ -21,9 +21,10 @@ remove:
   - toolbox
   - qadwaitadecorations-qt5
   - qt5-qtbase
-  # - qt5-qtbase-common
-  # - qt-settings
+  - qt5-qtbase-common
+  - qt-settings
   - qt5-qtxmlpatterns
+  - qt5-qtx11extras
 
   - gnome-tweaks
   - gnome-tour
