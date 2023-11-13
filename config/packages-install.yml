@@ -1,0 +1,9 @@
+type: rpm-ostree
+install:
+  - gnome-console
+  - ufw
+  - neofetch
+  - fish
+  - lsd
+  - bat
+  
