@@ -22,7 +22,7 @@ remove:
   - mod_dnssd
   - libvncserver
   # - perl
-  - toolbox
+  - toolbox # not needed since there is already distrobox
   - nvtop
   - xrandr
   - git
