@@ -55,7 +55,6 @@ screens:
             - Characters: org.gnome.Characters
             - Document Scanner: org.gnome.SimpleScan
             - Document Viewer: org.gnome.Evince
-            - Extension Manager: com.mattjakeman.ExtensionManager
             - Font Viewer: org.gnome.font-viewer
             - Image Viewer: org.gnome.Loupe
             - Sushi (Nautilus Previewer): org.gnome.NautilusPreviewer
@@ -88,10 +87,12 @@ screens:
             - Steam: com.valvesoftware.Steam
             - Gamescope (Utility): org.freedesktop.Platform.VulkanLayer.gamescope
             - MangoHUD (Utility): org.freedesktop.Platform.VulkanLayer.MangoHud//22.08
+            - Prism Launcher: org.prismlauncher.PrismLauncher
         Misc:
           descript: Some other random applications that some may find useful
           default: false
           packages:
+            Extension Manager: com.mattjakeman.ExtensionManager
             Obfuscate: com.belmoussaoui.Obfuscate
             PDF Arranger: com.github.finefindus.eyedropper
             Foliate: com.github.johnfactotum.Foliate
