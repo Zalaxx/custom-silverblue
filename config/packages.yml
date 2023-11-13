@@ -20,10 +20,10 @@ remove:
   # - perl
   - toolbox
   - qadwaitadecorations-qt5
-  # - qt5-qtbase
+  - qt5-qtbase
   # - qt5-qtbase-common
   # - qt-settings
-  # - qt5-qtxmlpatterns
+  - qt5-qtxmlpatterns
 
   - gnome-tweaks
   - gnome-tour
