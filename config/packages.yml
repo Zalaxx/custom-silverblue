@@ -25,7 +25,6 @@ remove:
   - toolbox # not needed since there is already distrobox
   - nvtop
   - xrandr
-  - git
 
   - qadwaitadecorations-qt5
   - qt5-qtbase
