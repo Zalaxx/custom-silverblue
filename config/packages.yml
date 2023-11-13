@@ -18,7 +18,7 @@ remove:
   - mod_dnssd
   - libvncserver
   - xrandr
-  - perl
+  # - perl
   - toolbox
   - qt5-qtbase
 
