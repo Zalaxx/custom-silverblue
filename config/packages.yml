@@ -24,7 +24,6 @@ remove:
   # - perl
   - toolbox # not needed since there is already distrobox
   - nvtop
-  - xrandr
 
   - qadwaitadecorations-qt5
   - qt5-qtbase
