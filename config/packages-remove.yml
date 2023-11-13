@@ -21,6 +21,7 @@ remove:
   - xrandr
   - sqlite
   - gamemode 
+  - webkit2gtk4.0
 
   - qadwaitadecorations-qt5
   - qt5-qtbase
