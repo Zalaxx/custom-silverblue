@@ -18,6 +18,7 @@ remove:
   - toolbox # not needed since there is already distrobox
   - nvtop
   - xrandr
+  - sqlite
 
   - qadwaitadecorations-qt5
   - qt5-qtbase
