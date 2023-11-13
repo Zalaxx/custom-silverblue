@@ -10,15 +10,19 @@ remove:
   - yelp-xsl
   - httpd
   - httpd-core
+  - httpd-tools
+  - httpd-filesystem
   - mod_lua
   - mod_http2
   - mod_dnssd
+  - libnghttp2
   - libvncserver
-  # - perl
   - toolbox # not needed since there is already distrobox
   - nvtop
   - xrandr
   - sqlite
+  - sqlite-libs
+  - gamemode 
 
   - qadwaitadecorations-qt5
   - qt5-qtbase
