@@ -13,6 +13,8 @@ remove:
   - firefox-langpacks
   # - virtualbox-guest-additions
   - yelp
+  - yelp-libs
+  - yelp-xsl
   - httpd
   - httpd-core
   - mod_lua
@@ -21,6 +23,9 @@ remove:
   - libvncserver
   # - perl
   - toolbox
+  - nvtop
+  - xrandr
+  - git
 
   - qadwaitadecorations-qt5
   - qt5-qtbase
@@ -47,3 +52,4 @@ remove:
   - gnome-shell-extension-apps-menu
   - gnome-shell-extension-background-logo
   - gnome-shell-extension-common
+  - gnome-system-monitor
