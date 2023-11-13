@@ -92,15 +92,15 @@ screens:
           descript: Some other random applications that some may find useful
           default: false
           packages:
-            Extension Manager: com.mattjakeman.ExtensionManager
-            Obfuscate: com.belmoussaoui.Obfuscate
-            PDF Arranger: com.github.finefindus.eyedropper
-            Foliate: com.github.johnfactotum.Foliate
-            Video Downloader: com.github.unrud.VideoDownloader
-            Amberol: io.bassi.Amberol
-            Mission Center: io.missioncenter.MissionCenter
-            qBittorrent: org.qbittorrent.qBittorrent
-            VLC: org.videolan.VLC
+            - Extension Manager: com.mattjakeman.ExtensionManager
+            - Obfuscate: com.belmoussaoui.Obfuscate
+            - PDF Arranger: com.github.finefindus.eyedropper
+            - Foliate: com.github.johnfactotum.Foliate
+            - Video Downloader: com.github.unrud.VideoDownloader
+            - Amberol: io.bassi.Amberol
+            - Mission Center: io.missioncenter.MissionCenter
+            - qBittorrent: org.qbittorrent.qBittorrent
+            - VLC: org.videolan.VLC
 
   final-screen:
     source: yafti.screen.title
