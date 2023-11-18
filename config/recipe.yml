@@ -26,7 +26,7 @@ modules:
                   # should be added into /usr/etc/ as that is the proper "distro"
                   # config directory on ostree. Read more in the files module's README
 
-  - type: default-flatpak
+  - type: default-flatpaks
     system:
       repo-url: https://db.flathub.org/repo/flathub.flatpakrepo
       repo-name: flathub
