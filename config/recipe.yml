@@ -26,11 +26,22 @@ modules:
                   # should be added into /usr/etc/ as that is the proper "distro"
                   # config directory on ostree. Read more in the files module's README
 
-  - type: yafti # if included, yafti and it's dependencies (pip & libadwaita)
-                #  will be installed and set up
-    custom-flatpaks: # this section is optional
-      # - Celluloid: io.github.celluloid_player.Celluloid
-      # - Krita: org.kde.krita
+  - type: default-flatpak
+    system:
+      repo-url: https://db.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      repo-title: "Flathub (system-wide)"
+      # Minimal flatpak packages: a terminal, a text editor, an image viewer, a PDF viewer, a calculator, a document scanner, a font viewer
+      install:
+        - com.raggesilver.BlackBox
+        - org.gnome.TextEditor
+        - org.gnome.Loupe
+        - org.gnome.Evince
+        - org.gnome.Calculator
+        - org.gnome.SimpleScan
+        - org.gnome.font-viewer
+
+  - type: yafti # Install and setup Yafti and its dependencies
 
   - type: script
     scripts:

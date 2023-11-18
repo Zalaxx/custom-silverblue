@@ -4,7 +4,7 @@ remove:
   - openssh-server
   - firefox
   - firefox-langpacks
-  # - virtualbox-guest-additions
+  - virtualbox-guest-additions
   - yelp
   - yelp-libs
   - yelp-xsl
