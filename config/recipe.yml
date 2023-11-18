@@ -28,7 +28,7 @@ modules:
 
   - type: default-flatpaks
     system:
-      repo-url: https://db.flathub.org/repo/flathub.flatpakrepo
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
       repo-name: flathub
       repo-title: "Flathub (system-wide)"
       # Minimal flatpak packages: a terminal, a text editor, an image viewer, a PDF viewer, a calculator, a document scanner, a font viewer
