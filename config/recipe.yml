@@ -1,7 +1,7 @@
 # image will be published to ghcr.io/<user>/<name>
-name: template
+name: custom-silverblue
 # description will be included in the image's metadata
-description: This is my personal OS image.
+description: My own take on Fedora Silverblue, with some hardening, some QoL and some debloating
 
 # the base image to build on top of (FROM) and the version tag to use
 base-image: ghcr.io/ublue-os/silverblue-main
@@ -10,39 +10,37 @@ image-version: 39 # latest is also supported if you want new updates ASAP
 # module configuration, executed in order
 # you can include multiple instances of the same module
 modules:
+  - from-file: packages-install.yml
+  - type: fonts
+    fonts:
+      nerd-fonts:
+        - JetBrainsMono
+        
   - type: files
     files:
-      - usr:
-          /usr # copies config/files/usr into your image's /usr.
-          # put configuration files you want in /etc/ on a booted system
-          # in /usr/etc/ in the image. read more in files module reference.
-
-  - type: rpm-ostree
-    repos:
-      # - https://copr.fedorainfracloud.org/coprs/atim/starship/repo/fedora-%OS_VERSION%/atim-starship-fedora-%OS_VERSION%.repo
-    install:
-      # - micro
-      # - starship
-    remove:
-      - firefox # default firefox removed in favor of flatpak
-      - firefox-langpacks # langpacks needs to also be removed to prevent dependency problems
+      - usr: /usr # copy static configurations
+                  #
+                  # copies config/files/usr into your image's /usr
+                  #
+                  # configuration you wish to end up in /etc/ on the booted system
+                  # should be added into /usr/etc/ as that is the proper "distro"
+                  # config directory on ostree. Read more in the files module's README
 
   - type: default-flatpaks
     notify: true # Send notification after install/uninstall is finished (true/false)
     system:
-      # If no repo information is specified, Flathub will be used by default
-      # repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      # repo-name: flathub
-      # repo-title: "Flathub (system-wide)" # Optional; this sets the remote's user-facing name in graphical frontends like GNOME Software
+      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
+      repo-name: flathub
+      repo-title: "Flathub (system-wide)"
+      # Minimal flatpak packages: a terminal, a text editor, an image viewer, a PDF viewer, a calculator, a document scanner, a font viewer
       install:
-        - org.mozilla.firefox
-        # - org.gnome.Loupe
-        # - one.ablaze.floorp//lightning # This is an example of flatpak which has multiple branches in selection (flatpak//branch).
-      # Flatpak runtimes are not supported (like org.winehq.Wine//stable-23.08),
-      # only normal flatpak applications are (like Floorp Lightning web browser in this example).
-      # Installing different branches of the same Flatpak is not supported.
-      remove:
-      # - org.gnome.eog
+        - org.gnome.TextEditor
+        - org.gnome.Loupe
+        - org.gnome.Evince
+        - org.gnome.Calculator
+        - org.gnome.SimpleScan
+        - org.gnome.font-viewer
+
+  - type: yafti # Install and setup Yafti and its dependencies
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
-

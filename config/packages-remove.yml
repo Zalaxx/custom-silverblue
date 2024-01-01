@@ -1,0 +1,51 @@
+type: rpm-ostree
+
+remove: 
+  - openssh-server
+  - firefox
+  - firefox-langpacks
+  - virtualbox-guest-additions
+  - yelp
+  - yelp-libs
+  - yelp-xsl
+  - httpd
+  - httpd-core
+  - httpd-tools
+  - httpd-filesystem
+  - mod_lua
+  - mod_http2
+  - mod_dnssd
+  - libvncserver
+  - toolbox # not needed since there is already distrobox
+  - nvtop
+  - xrandr
+  - sqlite
+  - gamemode 
+  - tmux
+
+  - qadwaitadecorations-qt5
+  - qt5-qtbase
+  - qt5-qtbase-common
+  - qt5-qtbase-gui
+  - qt5-qtdeclarative
+  - qt5-qtsvg
+  - qt5-qtwayland
+  - qt5-qtx11extras
+  - qt5-qtxmlpatterns
+  - qt-settings
+  - gstreamer1-plugins-good-qt
+
+  - gnome-tweaks
+  - gnome-tour
+  - gnome-terminal
+  - gnome-terminal-nautilus
+  - gnome-user-share
+  - gnome-remote-desktop
+  - gnome-classic-session
+  - gnome-shell-extension-window-list
+  - gnome-shell-extension-places-menu
+  - gnome-shell-extension-launch-new-instance
+  - gnome-shell-extension-apps-menu
+  - gnome-shell-extension-background-logo
+  - gnome-shell-extension-common
+  - gnome-system-monitor
