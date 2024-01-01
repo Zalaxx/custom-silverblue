@@ -22,6 +22,7 @@ remove:
   - sqlite
   - gamemode 
   - tmux
+  - ibus-typing-booster
 
   - qadwaitadecorations-qt5
   - qt5-qtbase
