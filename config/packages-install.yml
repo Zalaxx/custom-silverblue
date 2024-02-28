@@ -7,3 +7,4 @@ install:
   - lsd
   - bat
   - baobab
+  - tldr
