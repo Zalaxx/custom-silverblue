@@ -1,5 +1,5 @@
 [org.gnome.mutter]
-attach-model-dialog=false
+attach-modal-dialogs=false
 
 [org.gnome.mutter]
 check-alive-timeout=uint32 15000
