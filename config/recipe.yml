@@ -17,6 +17,10 @@ modules:
       nerd-fonts:
         - JetBrainsMono
         
+  - type: gschema-overrides
+    include:
+      - zz1-QoL-overrides.gschema.override
+
   - type: files
     files:
       - usr: /usr # copy static configurations
