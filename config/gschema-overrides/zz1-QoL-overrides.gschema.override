@@ -1,23 +1,16 @@
 [org.gnome.mutter]
 attach-modal-dialogs=false
-
-[org.gnome.mutter]
 check-alive-timeout=uint32 15000
-
 
 
 [org.gnome.desktop.interface]
 enable-hot-corners=false
-
-[org.gnome.desktop.interface]
 font-antialiasing='rgba'
-
+show-battery-percentage=true
 
 
 [org.gnome.desktop.peripherals.touchpad]
 disable-while-typing=false
-
-[org.gnome.desktop.peripherals.touchpad]
 tap-to-click=true
 
 
@@ -27,6 +20,7 @@ accel-profile='flat'
 
 [org.gnome.desktop.sound]
 allow-volume-above-100-percent=true
+
 
 
 
