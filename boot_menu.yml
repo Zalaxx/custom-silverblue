@@ -1,5 +1,0 @@
-ublue_variants:
-  - label: blue-build/legacy-template
-    ks: /kickstart/ublue-os.ks
-    flavors:
-      - label: legacy-template
