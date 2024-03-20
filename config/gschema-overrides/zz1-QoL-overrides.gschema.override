@@ -5,7 +5,7 @@ check-alive-timeout=uint32 15000
 
 [org.gnome.desktop.interface]
 enable-hot-corners=false
-font-antialiasing='rgba'
+font-antialiasing='grayscale'
 show-battery-percentage=true
 
 
