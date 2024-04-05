@@ -23,6 +23,7 @@ remove:
   - gamemode 
   - tmux
   - ibus-typing-booster
+  - fzf
 
   # Used by VirtualBox
   - qadwaitadecorations-qt5
