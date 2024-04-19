@@ -24,6 +24,9 @@ remove:
   - tmux
   - ibus-typing-booster
   - fzf
+  - rsync
+  - qemu-guest-agent
+  - qemu-user-static
 
   # Used by VirtualBox
   - qadwaitadecorations-qt5
