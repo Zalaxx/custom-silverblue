@@ -75,3 +75,4 @@ remove:
   - gnome-shell-extension-background-logo
   - gnome-shell-extension-common
   - gnome-system-monitor
+  - gnome-classic-session-xsession
