@@ -8,3 +8,5 @@ install:
   - bat
   - baobab
   - tldr
+  - slirp4netns # used for networking with podman containers 
+  - wireshark
