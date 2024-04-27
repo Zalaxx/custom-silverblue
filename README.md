@@ -1,19 +1,20 @@
-# Legacy template [![build-ublue](https://github.com/blue-build/legacy-template/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/legacy-template/actions/workflows/build.yml)
+# Zalax's Silverblue &nbsp; [![build-ublue](https://github.com/zalaxx/custom-silverblue/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
 
-> **Warning**  
-> This repository was previously `ublue-os/startingpoint`, but has now been [moved to the BlueBuild organization](https://blue-build.org/blog/introducing-bluebuild/). New custom images should be created from the new [blue-build/template](https://github.com/blue-build/template), but this repository will be supported for the foreseeable future.  
-> Check out the [migration guide](https://blue-build.org/blog/introducing-bluebuild/#how-to-migrate) for migration instructions.
+## Features
+
+TODO
+
 
 ## Installation
 
 > **Warning**  
 > [This is an experimental feature](https://www.fedoraproject.org/wiki/Changes/OstreeNativeContainerStable), try at your own discretion.
 
-To rebase an existing Silverblue/Kinoite installation to the latest build:
+To rebase an existing atomic Fedora installation to the latest build:
 
 - First rebase to the unsigned image, to get the proper signing keys and policies installed:
   ```
-  rpm-ostree rebase ostree-unverified-registry:ghcr.io/blue-build/legacy-template:latest
+  rpm-ostree rebase ostree-unverified-registry:ghcr.io/zalaxx/custom-silverblue
   ```
 - Reboot to complete the rebase:
   ```
@@ -21,7 +22,7 @@ To rebase an existing Silverblue/Kinoite installation to the latest build:
   ```
 - Then rebase to the signed image, like so:
   ```
-  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/blue-build/legacy-template:latest
+  rpm-ostree rebase ostree-image-signed:docker://ghcr.io/zalaxx/custom-silverblue
   ```
 - Reboot again to complete the installation
   ```
