@@ -25,6 +25,11 @@ remove:
   - ibus-typing-booster
   - fzf
   - rsync
+  - dnsmasq
+  - fedora-bookmarks
+  - fedora-chromium-config
+  - fedora-chromium-config-gnome
+  - fedora-logos-httpd
 
   - qemu-guest-agent
   - qemu-user-static
@@ -58,6 +63,7 @@ remove:
   - qt5-qtwayland
   - qt5-qtx11extras
   - qt5-qtxmlpatterns
+  - qt5-qttranslations
   - qt-settings
   - gstreamer1-plugins-good-qt
 
@@ -76,3 +82,5 @@ remove:
   - gnome-shell-extension-common
   - gnome-system-monitor
   - gnome-classic-session-xsession
+
+
