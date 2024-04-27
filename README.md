@@ -1,4 +1,4 @@
-# Zalax's Silverblue &nbsp; [![build-ublue](https://github.com/zalaxx/custom-silverblue/actions/workflows/build.yml/badge.svg)](https://github.com/blue-build/template/actions/workflows/build.yml)
+# Zalax's Silverblue &nbsp; [![build-ublue](https://github.com/zalaxx/custom-silverblue/actions/workflows/build.yml/badge.svg)](https://github.com/zalaxx/custom-silverblue/actions/workflows/build.yml)
 
 ## Features
 
