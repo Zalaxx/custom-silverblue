@@ -41,7 +41,7 @@ modules:
       install:
         - org.gnome.TextEditor
         - org.gnome.Loupe
-        - org.gnome.Evince
+        - org.gnome.Papers
         - org.gnome.Calculator
         - org.gnome.SimpleScan
         - org.gnome.font-viewer
