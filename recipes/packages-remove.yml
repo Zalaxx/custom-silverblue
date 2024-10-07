@@ -30,7 +30,6 @@ remove:
   - fedora-chromium-config
   - fedora-chromium-config-gnome
   - fedora-logos-httpd
-  - zbar-libs
 
   - qemu-guest-agent
   - qemu-user-static
@@ -67,7 +66,6 @@ remove:
   - qt5-qttranslations
   - qt-settings
   - gstreamer1-plugins-good-qt
-  - gstreamer1-plugins-bad
 
   - gnome-tweaks
   - gnome-tour
