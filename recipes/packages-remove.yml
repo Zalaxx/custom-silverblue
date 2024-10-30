@@ -73,6 +73,7 @@ remove:
   - gnome-terminal-nautilus
   - gnome-user-share
   - gnome-remote-desktop
+  - gnome-classic-sesion
   - gnome-shell-extension-window-list
   - gnome-shell-extension-places-menu
   - gnome-shell-extension-launch-new-instance
@@ -80,6 +81,5 @@ remove:
   - gnome-shell-extension-background-logo
   - gnome-shell-extension-common
   - gnome-system-monitor
-  - gnome-classic-session-xsession
 
 
