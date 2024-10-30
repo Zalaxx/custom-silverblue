@@ -69,8 +69,6 @@ remove:
 
   - gnome-tweaks
   - gnome-tour
-  - gnome-terminal
-  - gnome-terminal-nautilus
   - gnome-user-share
   - gnome-remote-desktop
   - gnome-classic-session
