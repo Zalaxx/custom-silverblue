@@ -43,7 +43,6 @@ modules:
         - org.gnome.Calculator
         - org.gnome.SimpleScan
         - org.gnome.font-viewer
-        - app.devsuite.Ptyxis
 
   - type: yafti # Install and setup Yafti and its dependencies
 
