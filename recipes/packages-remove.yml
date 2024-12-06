@@ -32,7 +32,6 @@ remove:
   - fedora-logos-httpd
 
   - qemu-guest-agent
-  - qemu-user-static-aarch64-2
 
   # Used by VirtualBox
   - qadwaitadecorations-qt5
