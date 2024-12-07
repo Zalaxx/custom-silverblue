@@ -1,0 +1,6 @@
+# Sources:
+#   - https://github.com/GrapheneOS/infrastructure/blob/main/sysconfig/chronyd
+#   - man chronyd(8)
+
+# seccomp filter for chronyd. It only allows a list of a few system calls.
+OPTIONS="-F 1"
