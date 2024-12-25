@@ -9,4 +9,4 @@ install:
   - tldr
   - slirp4netns # used for networking with podman containers 
   - podman-compose
-  
+  - xhost
