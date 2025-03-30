@@ -18,7 +18,6 @@ remove:
   - libvncserver
   - toolbox # not needed since there is already distrobox
   - nvtop
-  - xrandr
   - gamemode 
   - tmux
   - ibus-typing-booster
