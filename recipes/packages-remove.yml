@@ -19,7 +19,6 @@ remove:
   - toolbox # not needed since there is already distrobox
   - nvtop
   - xrandr
-  - sqlite
   - gamemode 
   - tmux
   - ibus-typing-booster
