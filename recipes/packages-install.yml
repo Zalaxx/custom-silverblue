@@ -8,4 +8,3 @@ install:
   - baobab
   - tldr
   - podman-compose
-  - xhost
