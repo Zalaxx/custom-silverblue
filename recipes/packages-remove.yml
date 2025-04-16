@@ -28,6 +28,7 @@ remove:
   - fedora-chromium-config
   - fedora-chromium-config-gnome
   - fedora-logos-httpd
+  - hplip-gui
 
   - qemu-guest-agent
 
