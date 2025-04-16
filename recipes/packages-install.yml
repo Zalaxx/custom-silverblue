@@ -8,3 +8,4 @@ install:
   - baobab
   - tldr
   - podman-compose
+  - gnome-shell-extension-appindicator # Up-to-date version maintained by the Fedora team, extension from Gnome Extensions does not currently support Gnome 48
