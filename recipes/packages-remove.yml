@@ -46,7 +46,13 @@ remove:
   - qt5-qttools-libs-help
   - qt5-qtwebchannel
   - qt5-qtconnectivity
+  - qt5-qttools-libs-designer
+  - qt5-qtmultimedia
+  - qt5-qtsensors
+  - qt5-qtlocation
+  - qt5-qtserialport
   - python3-qt5-base
+  - python3-qt5
   - qt-settings
   - gstreamer1-plugins-good-qt
 
