@@ -45,7 +45,6 @@ remove:
   - qt-settings
   - gstreamer1-plugins-good-qt
 
-  - gnome-tweaks
   - gnome-tour
   - gnome-user-share
   - gnome-remote-desktop
