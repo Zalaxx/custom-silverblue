@@ -44,6 +44,4 @@ modules:
         - org.gnome.SimpleScan
         - org.gnome.font-viewer
 
-  - type: yafti # Install and setup Yafti and its dependencies
-
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
