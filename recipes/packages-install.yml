@@ -1,10 +1,11 @@
-type: rpm-ostree
+type: dnf
 install:
-  - fastfetch
-  - xwininfo # used to easily check which application is running on wayland or not
-  - fish
-  - lsd
-  - bat
-  - baobab
-  - tldr
-  - podman-compose
+  packages:
+    - fastfetch
+    - xwininfo # used to easily check which application is running on wayland or not
+    - fish
+    - lsd
+    - bat
+    - baobab
+    - tldr
+    - podman-compose
