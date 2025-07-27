@@ -30,18 +30,15 @@ modules:
                        # read more about this in files module reference.
 
   - type: default-flatpaks
-    notify: true # Send notification after install/uninstall is finished (true/false)
-    system:
-      repo-url: https://dl.flathub.org/repo/flathub.flatpakrepo
-      repo-name: flathub
-      repo-title: "Flathub (system-wide)"
-      # Minimal flatpak packages: a text editor, an image viewer, a PDF viewer, a calculator, a document scanner, a font viewer, a console
-      install:
-        - org.gnome.TextEditor
-        - org.gnome.Loupe
-        - org.gnome.Papers
-        - org.gnome.Calculator
-        - org.gnome.SimpleScan
-        - org.gnome.font-viewer
+    configuration:
+      - notify: false
+        scope: system
+        install:
+          - org.gnome.TextEditor
+          - org.gnome.Loupe
+          - org.gnome.Papers
+          - org.gnome.Calculator
+          - org.gnome.SimpleScan
+          - org.gnome.font-viewer
 
   - type: signing # this sets up the proper policy & signing files for signed images to work fully
