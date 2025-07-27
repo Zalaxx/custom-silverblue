@@ -30,7 +30,7 @@ modules:
                        # read more about this in files module reference.
 
   - type: default-flatpaks
-    configuration:
+    configurations:
       - notify: false
         scope: system
         install:
