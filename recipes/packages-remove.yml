@@ -23,7 +23,6 @@ remove:
     - ibus-typing-booster
     - fzf
     - rsync
-    - dnsmasq
     - fedora-bookmarks
     - fedora-chromium-config
     - fedora-chromium-config-gnome
