@@ -9,9 +9,9 @@ remove:
     - yelp-libs
     - yelp-xsl
     - httpd
-    - httpd-core
+    # - httpd-core
     - httpd-tools
-    - httpd-filesystem
+    # - httpd-filesystem
     - mod_lua
     - mod_http2
     - mod_dnssd
