@@ -9,3 +9,4 @@ install:
     - baobab
     - tldr
     - podman-compose
+    - vulkan-tools
